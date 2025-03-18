@@ -24,3 +24,39 @@ This repository provides a basic multi-camera video player in Python using PyQt5
 git clone https://github.com/YOUR_USERNAME_HERE/multi_cam_player.git
 cd multi_cam_player
 ```
+
+### 2. Create a Python Virtual Environment
+
+Depending on your system, you can create a virtual environment in different ways. One common method is:
+
+```bash
+python -m venv .venv
+```
+
+(On some systems, you might use python3 instead of python.)
+
+### 3. Activate the Virtual Environment
+
+On Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows (Command Prompt):
+
+```bash
+.venv\Scripts\activate
+```
+
+### 4. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the Application
+
+```bash
+python main.py <sequence_folder>
+```
